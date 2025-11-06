@@ -3,3 +3,4 @@ S002|Cau truc du lieu va giai thuat|Tran Thi B|NXB Khoa hoc|2019|450|15/02/2024|
 S003|Tri tue nhan tao|Le Van C|NXB Tre|2021|500|20/03/2024|0
 S004|Co so du lieu|Pham Thi D|NXB Dai hoc Quoc gia|2018|400|10/04/2024|1
 S010|Test Book 1|Test Author|Test Publisher|2023|300|06/11/2025|1
+S1|Sach Cua Phuc Thien|Phuc Thien|Phuc Thien NXB|2025|300|18/11/2025|1
