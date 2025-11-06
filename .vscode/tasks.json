@@ -1,0 +1,52 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C++: g++ build active file",
+            "command": "g++",
+            "args": [
+                "-g",
+                "${file}",
+                "${workspaceFolder}\\src\\Book.cpp",
+                "-I",
+                "${workspaceFolder}\\include",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Compiler: g++.exe"
+        },
+        {
+            "type": "shell",
+            "label": "Build main.cpp",
+            "command": "g++",
+            "args": [
+                "-g",
+                "main.cpp",
+                "src\\Book.cpp",
+                "-I",
+                "include",
+                "-o",
+                "library.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "Build main program"
+        }
+    ]
+}

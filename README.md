@@ -23,21 +23,27 @@ Phân quyền truy cập (Admin / Nhân viên)
 
 Sau khi đăng nhập thành công → vào menu chính
 
-2. Quản lý sách
+2. Quản lý sách ✅ HOÀN THÀNH
 
 File: Book.h, Book.cpp
-Người thực hiện: (ghi tên)
+Người thực hiện: [Ghi tên của bạn]
 Nội dung công việc:
 
-Thêm, xóa, hiển thị danh sách sách
+✅ Thêm, xóa, hiển thị danh sách sách
 
-Thuộc tính: Mã sách, Tên sách, Tác giả, Nhà xuất bản, Năm phát hành, Số trang, Ngày nhập, Tình trạng
+✅ Thuộc tính: Mã sách, Tên sách, Tác giả, Nhà xuất bản, Năm phát hành, Số trang, Ngày nhập, Tình trạng
 
-Tình trạng: 1 = còn trong thư viện, 0 = đang được mượn
+✅ Tình trạng: 1 = còn trong thư viện, 0 = đang được mượn
 
-Cập nhật và lưu dữ liệu vào SACH.txt
+✅ Cập nhật và lưu dữ liệu vào SACH.txt
 
-Không cho xóa sách nếu đang được mượn
+✅ Không cho xóa sách nếu đang được mượn
+
+**Cấu trúc dữ liệu:** Danh sách liên kết đôi (Doubly Linked List)
+**Các chức năng bổ sung:** 
+- Tìm kiếm theo mã, tên, tác giả
+- Kiểm tra tính hợp lệ của dữ liệu nhập (năm phát hành, ngày nhập, số trang)
+- Tự động lưu file sau mỗi thao tác thêm/xóa
 
 3. Quản lý bạn đọc
 
