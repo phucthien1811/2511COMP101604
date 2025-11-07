@@ -1,0 +1,5 @@
+S001|Lap trinh C++ co ban|Nguyen Van A|NXB Giao duc|150000|2020|350|01/01/2024|5
+S002|Cau truc du lieu va giai thuat|Tran Thi B|NXB Khoa hoc|200000|2021|450|15/02/2024|3
+S003|Lap trinh huong doi tuong|Le Van C|NXB Tre|180000|2019|400|20/03/2024|0
+S004|Co so du lieu|Pham Thi D|NXB Dai hoc Quoc gia|220000|2022|500|10/04/2024|2
+S005|Mang may tinh|Hoang Van E|NXB Thong tin va Truyen thong|190000|2021|380|05/05/2024|4
